@@ -11,19 +11,19 @@
     <h1 class="text-center text-3xl  mt-2">Simple Calculator Using this formula  Z=A²+ B²</h1>
     <div class="box  h-screen flex flex-col w-100 items-center  mt-8">
         
-       <div>
-        <label for="number"> Enter the valude for A :
+       <div class="flex">
+        <label for="number"> Enter the value for A :
         </label>
             <input type="number" placeholder="0"  class="p-2 font-bold text-center rounded" id="valueA"><br><br>
        </div>
 
-          <div>
-            <label for="number" > Enter the valude for B : 
+          <div class="flex mt-2">
+            <label for="number" > Enter the value for B : 
             </label>
                 <input class="p-2 font-bold text-center rounded " type="number" placeholder="0" id="valueB"> <br><br>
           </div>
 
-        <button  onclick="calculate()" class="text-2xl bg-sky-500 text-white  p-2 border rounded-2xl hover:bg-sky-700" >Calculate</button>
+        <button  onclick="calculate()" class="text-2xl bg-sky-500 mt-4 text-white  p-2 border rounded-2xl hover:bg-sky-700" >Calculate</button>
 
         <h3 class="bg-gray-300 p-3 w-2/3 font-bold  text-center mt-5 " id="output">Output: <br> <span id="calculate"> 00</span></h3>
 
